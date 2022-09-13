@@ -27,9 +27,9 @@ const getCity = async (city) => {
 
 };
 
-getCity('Glasgow').then(data => {
-    return getWeather(data.Key);
-  }).then(data => {
-    console.log(data);
-  }).catch(err => console.log(err));
+// getCity('Glasgow').then(data => {
+//     return getWeather(data.Key);
+//   }).then(data => {
+//     console.log(data);
+//   }).catch(err => console.log(err));
 
